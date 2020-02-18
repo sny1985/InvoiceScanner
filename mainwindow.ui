@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>568</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QTableView" name="tv_Invoices"/>
+    </item>
+    <item>
+     <widget class="QPushButton" name="btn_Open">
+      <property name="text">
+       <string>打开图片</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="lbl_InvoiceCode">
+      <property name="text">
+       <string>发票代码</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="le_InvoiceCode"/>
+    </item>
+    <item>
+     <widget class="QLabel" name="lbl_InvoiceNumber">
+      <property name="text">
+       <string>发票号码</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="le_InvoiceNumber"/>
+    </item>
+    <item>
+     <widget class="QLabel" name="lbl_BillingDate">
+      <property name="text">
+       <string>开票日期</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="le_BillingDate"/>
+    </item>
+    <item>
+     <widget class="QLabel" name="lbl_TotalAmount">
+      <property name="text">
+       <string>合计金额</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="le_TotalAmount"/>
+    </item>
+    <item>
+     <widget class="QLabel" name="lbl_CheckCode">
+      <property name="text">
+       <string>校验码</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="le_CheckCode"/>
+    </item>
+    <item>
+     <widget class="QPushButton" name="btn_Add">
+      <property name="text">
+       <string>手工添加</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="btn_Export">
+      <property name="text">
+       <string>导出xlsx</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
